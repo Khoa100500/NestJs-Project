@@ -3,16 +3,15 @@ import { AuthService } from './auth.service';
 
 @Controller('auth')
 export class AuthController {
-  constructor(private authService: AuthService) {
-    this.authService.test();
-  }
+  constructor(private authService: AuthService) {}
+
   @Post('signup')
   signup() {
-    return { user: 'khoa', status: 'signed up' };
+    return `${this.authService.signup()}`;
   }
 
   @Post('signin')
   signin() {
-    return 'I am signed in';
+    return this.authService.signin();
   }
 }
