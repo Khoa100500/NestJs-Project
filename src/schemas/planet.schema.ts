@@ -10,6 +10,12 @@ export class Planets {
 
   @Prop()
   orderFromSun: number;
+
+  @Prop()
+  hasRings: boolean;
+
+  @Prop()
+  atMosphere: string[];
 }
 
 export const PlanetsSchema = SchemaFactory.createForClass(Planets);
