@@ -680,9 +680,9 @@
     jsonc-parser "3.0.0"
     pluralize "8.0.0"
 
-"@nestjs/testing@^9.0.0":
-  version "9.0.1"
-  resolved "https://registry.npmjs.org/@nestjs/testing/-/testing-9.0.1.tgz"
+"@nestjs/testing@^9.0.9":
+  version "9.0.9"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-9.0.9.tgz#703872b5ed29bb4fac112d92e7ed5ebb919bc80d"
   dependencies:
     tslib "2.4.0"
 
